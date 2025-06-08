@@ -1,0 +1,24 @@
+# OpenAI Configuration
+spring:
+  ai:
+    openai:
+      # Replace with your OpenAI API key from https://platform.openai.com/api-keys
+      api-key: your-api-key-here
+      # Model to use (e.g., gpt-4, gpt-3.5-turbo, etc.)
+      model: gpt-4o-mini
+      # Maximum tokens for API response
+      max-tokens: 500
+      # OpenAI API endpoint
+      url: https://api.openai.com/v1/completions
+
+# Server Configuration
+server:
+  # Application port (can be changed as needed)
+  port: 8093
+
+# Add any additional configurations below this line
+# For example:
+# logging:
+#   level:
+#     root: INFO
+#     com.tadiewa.smartcv: DEBUG
